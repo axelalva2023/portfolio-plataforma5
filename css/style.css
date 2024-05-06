@@ -84,9 +84,7 @@ main .acerca-mi div p {
 
 }
 
-footer{
-    background-color: black;
-    color: aliceblue;
+.redes-y-direccion{
     height: 200px;
     bottom: 0;
     width: 100%;
@@ -99,6 +97,11 @@ footer{
 footer ul {
     list-style: none;
 }
-footer .derechos{
-    
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
 }
