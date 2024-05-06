@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 80px;
-}
+
 
 main .hero {
     display: flex;
@@ -52,9 +48,14 @@ main .portfolio div {
 
 main .contacto {
     background-color: orange;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
 }
+main .contacto h2{
+    text-align: center;
 
+}
 main .acerca-mi {
     display: flex;
     justify-content: center;
@@ -83,14 +84,21 @@ main .acerca-mi div p {
 
 }
 
-footer {
+footer{
     background-color: black;
     color: aliceblue;
-    position: absolute;
-    height: 80px;
+    height: 200px;
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    
+}
+footer ul {
+    list-style: none;
+}
+footer .derechos{
+    
 }
