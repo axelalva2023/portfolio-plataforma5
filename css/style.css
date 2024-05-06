@@ -52,6 +52,7 @@ main .acerca-mi{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 40px;
 }
 main .acerca-mi div p{
     font-size: 23px;
@@ -64,5 +65,9 @@ main .acerca-mi div p{
 }
 .nav-link{
     color: #ffffff !important;
+    
+}
+.navbar-toggler{
+    background-color: #ffffff !important;
     
 }
