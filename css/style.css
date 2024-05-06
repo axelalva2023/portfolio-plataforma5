@@ -86,7 +86,6 @@ main .acerca-mi div p {
 
 .redes-y-direccion{
     height: 200px;
-    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -102,6 +101,10 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.derechos{
     background-color: black;
     color: aliceblue;
 }
